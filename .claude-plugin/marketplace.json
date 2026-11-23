@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "paper-highlight-ko",
+  "description": "해외 논문 형광펜 + 한글 번역 칸 PDF 스킬",
+  "owner": {
+    "name": "yskang918",
+    "url": "https://github.com/yskang918"
+  },
+  "plugins": [
+    {
+      "name": "paper-highlight-ko",
+      "source": "./",
+      "description": "해외 논문 PDF에 형광펜과 한글 번역 칸을 붙여, 중요한 내용만 빠르고 정확하게 읽게 해 준다.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}
